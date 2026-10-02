@@ -1,0 +1,14 @@
+.venv
+__pycache__
+data
+.git
+.env
+.env.*
+dist
+logs
+*.ppk
+*.pem
+*.key
+id_rsa*
+*.zip
+*.tar.gz

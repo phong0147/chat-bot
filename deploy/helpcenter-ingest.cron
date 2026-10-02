@@ -1,0 +1,4 @@
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+# VPS timezone: Asia/Ho_Chi_Minh (UTC+7). The job runs once and exits.
+0 2 * * * root /opt/script-chat-bot/deploy/run-daily.sh

@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/
+dist/
+logs/
+*.log
+.env
+.env.*
+!.env.sample
+*.ppk
+*.pem
+*.key
+id_rsa*
