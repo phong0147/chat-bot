@@ -1,0 +1,42 @@
+{
+  "started_at": "2026-10-02T13:42:27+00:00",
+  "finished_at": "2026-10-02T13:43:15.603104+00:00",
+  "status": "success",
+  "exit_code": 0,
+  "schedule": "Daily 02:00 Asia/Ho_Chi_Minh",
+  "command": "python main.py --mode sync --limit 0",
+  "scrape": {
+    "started_at": "2026-10-02T13:42:30.395371+00:00",
+    "status": "success",
+    "added": 0,
+    "updated": 0,
+    "skipped": 416,
+    "processed": 416,
+    "source": "https://support.optisigns.com",
+    "locale": "en-us",
+    "limit": 0,
+    "finished_at": "2026-10-02T13:42:51.282587+00:00"
+  },
+  "upload": {
+    "started_at": "2026-10-02T13:42:51.283674+00:00",
+    "status": "success",
+    "added": 0,
+    "updated": 0,
+    "skipped": 416,
+    "failed": 0,
+    "retries": 0,
+    "processed": 416,
+    "files_embedded": 0,
+    "estimated_chunks_embedded": 0,
+    "chunk_estimate_method": "raw_markdown_whitespace_windows",
+    "chunk_estimate_note": "Local estimate from raw Markdown split on whitespace, using fixed-size overlapping windows. Gemini may parse or split content differently. This is not the actual number of embedded chunks returned by Gemini.",
+    "embedded_chunks": null,
+    "chunk_count_note": "Gemini does not expose the actual chunk count in document responses.",
+    "chunking": {
+      "max_tokens_per_chunk": 512,
+      "max_overlap_tokens": 64
+    },
+    "store_name": "fileSearchStores/helpcenter8bee671fe5df46f19-eygp8bxkqfhi",
+    "finished_at": "2026-10-02T13:43:14.938884+00:00"
+  }
+}

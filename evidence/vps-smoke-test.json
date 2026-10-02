@@ -1,0 +1,38 @@
+{
+  "verified_at": "2026-10-02T07:01:46.766213+00:00",
+  "scope": "End-to-end Docker smoke test with the original 30 articles in an isolated data volume",
+  "command": "python main.py --mode sync --limit 30",
+  "exit_code": 0,
+  "unit_tests_passed": 24,
+  "scrape": {
+    "started_at": "2026-10-02T07:01:25.563747+00:00",
+    "status": "success",
+    "added": 0,
+    "updated": 0,
+    "skipped": 30,
+    "processed": 30,
+    "changed_files": [],
+    "source": "https://support.optisigns.com",
+    "locale": "en-us",
+    "limit": 30,
+    "finished_at": "2026-10-02T07:01:29.559599+00:00"
+  },
+  "upload": {
+    "started_at": "2026-10-02T07:01:29.560850+00:00",
+    "status": "success",
+    "added": 0,
+    "updated": 0,
+    "skipped": 30,
+    "failed": 0,
+    "processed": 30,
+    "files_embedded": 0,
+    "embedded_chunks": null,
+    "chunk_count_note": "Gemini does not expose the actual chunk count in document responses.",
+    "chunking": {
+      "max_tokens_per_chunk": 512,
+      "max_overlap_tokens": 64
+    },
+    "store_name": "fileSearchStores/helpcenter8bee671fe5df46f19-eygp8bxkqfhi",
+    "finished_at": "2026-10-02T07:01:45.846619+00:00"
+  }
+}

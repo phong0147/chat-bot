@@ -1,0 +1,26 @@
+{
+  "captured_at": "2026-10-02T13:44:29.936012+00:00",
+  "project_path": "/opt/script-chat-bot",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "schedule": "0 2 * * *",
+  "cron_active": true,
+  "cron_file": "/etc/cron.d/helpcenter-ingest",
+  "image_id": "sha256:27930d4f9e59658cd42f50cc8a78c31d5e9d6b3eb7720b549df07bd07438d902",
+  "full_sync_state": "success",
+  "scraped_articles": 416,
+  "uploaded_articles": 416,
+  "pending_operations": 0,
+  "store_name": "fileSearchStores/helpcenter8bee671fe5df46f19-eygp8bxkqfhi",
+  "note": "Latest no-op run exited 0 and skipped 416 files. Chunk count 804 is a local estimate, not a provider-confirmed embedding count. Evidence files are timestamped snapshots.",
+  "full_sync_report_path": "/opt/script-chat-bot/data/daily-last-run.json",
+  "log_path": "/opt/script-chat-bot/logs/daily.log",
+  "full_sync_exit_code": 0,
+  "active_documents": 416,
+  "store_verified": true,
+  "unit_tests_passed": 36,
+  "chunk_audit": {
+    "estimated_chunks_in_manifest": 804,
+    "actual_embedded_chunks": null,
+    "method": "raw_markdown_whitespace_windows"
+  }
+}

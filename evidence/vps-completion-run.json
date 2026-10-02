@@ -1,0 +1,39 @@
+{
+  "started_at": "2026-10-02T09:31:16+00:00",
+  "finished_at": "2026-10-02T09:49:26.587089+00:00",
+  "status": "success",
+  "exit_code": 0,
+  "schedule": "Daily 02:00 Asia/Ho_Chi_Minh",
+  "command": "python main.py --mode sync --limit 0",
+  "scrape": {
+    "started_at": "2026-10-02T09:31:19.861413+00:00",
+    "status": "success",
+    "added": 0,
+    "updated": 0,
+    "skipped": 416,
+    "processed": 416,
+    "source": "https://support.optisigns.com",
+    "locale": "en-us",
+    "limit": 0,
+    "finished_at": "2026-10-02T09:31:38.585283+00:00"
+  },
+  "upload": {
+    "started_at": "2026-10-02T09:31:38.587702+00:00",
+    "status": "success",
+    "added": 150,
+    "updated": 0,
+    "skipped": 266,
+    "failed": 0,
+    "retries": 0,
+    "processed": 416,
+    "files_embedded": 150,
+    "embedded_chunks": null,
+    "chunk_count_note": "Gemini does not expose the actual chunk count in document responses.",
+    "chunking": {
+      "max_tokens_per_chunk": 512,
+      "max_overlap_tokens": 64
+    },
+    "store_name": "fileSearchStores/helpcenter8bee671fe5df46f19-eygp8bxkqfhi",
+    "finished_at": "2026-10-02T09:49:25.778995+00:00"
+  }
+}

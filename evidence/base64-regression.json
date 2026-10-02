@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-10-02T09:19:08.739129+00:00",
+  "status": "success",
+  "added": 1,
+  "updated": 0,
+  "skipped": 0,
+  "failed": 0,
+  "processed": 1,
+  "files_embedded": 1,
+  "embedded_chunks": null,
+  "chunk_count_note": "Gemini does not expose the actual chunk count in document responses.",
+  "chunking": {
+    "max_tokens_per_chunk": 512,
+    "max_overlap_tokens": 64
+  },
+  "store_name": "fileSearchStores/helpcenter8bee671fe5df46f19-eygp8bxkqfhi",
+  "finished_at": "2026-10-02T09:19:28.689782+00:00"
+}

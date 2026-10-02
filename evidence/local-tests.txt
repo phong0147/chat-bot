@@ -1,0 +1,14 @@
+HTTP 429; retrying in 1s
+HTTP 429; retrying in 1s
+HTTP 429; retrying in 1s
+Temporary failure article=1; reconcile and retry 1/2: response lost
+Temporary Gemini read failure; retry 1/2: Gemini request timed out (ReadTimeout); rerun to reconcile saved progress.
+Temporary Gemini read failure; retry 2/2: Gemini request timed out (ReadTimeout); rerun to reconcile saved progress.
+Temporary failure article=1; reconcile and retry 1/2: cleanup 503
+Temporary failure article=1; reconcile and retry 1/2: Gemini HTTP 503
+Temporary failure article=1; reconcile and retry 1/2: Gemini request timed out (ReadTimeout); rerun to reconcile saved progress.
+Temporary failure article=1; reconcile and retry 2/2: Gemini request timed out (ReadTimeout); rerun to reconcile saved progress.
+----------------------------------------------------------------------
+Ran 36 tests in 3.064s
+
+OK
